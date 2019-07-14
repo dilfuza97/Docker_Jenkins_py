@@ -28,13 +28,7 @@ node('master') {
            }
       }
 
-      // stage('Basic ECR Authentication') {
-      //         dir("${WORKSPACE}") {
-      //           // Renewing or Creating Authorization Token to AWS ECR
-      //           sh '"$(aws ecr get-login --no-include-email)"'
-      //         }
-      //    }
-
+     
     stage('Docker push') {
 
            dir("${WORKSPACE}") {
