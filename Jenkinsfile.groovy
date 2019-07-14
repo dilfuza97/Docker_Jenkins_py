@@ -3,7 +3,7 @@ node('master') {
     // some block
 
   stage('Clone repo') {
-    git credentialsId: 'github', url: 'https://github.com/SharifAbdulcoder/Docker-python.git'
+    git credentialsId: 'github', url: 'https://github.com/dilfuza97/Docker_Jenkins_py.git'
   }
 
    stage('Check awscli') {
